@@ -43,3 +43,28 @@ And I type in "negative number"
 And I press "equals")
   
   Then (I see the "added number" as the result)
+
+Scenario: (Addition of decimals)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "decimal number"
+And I press "plus"
+And I type in "decimal number"
+And I press "equals")
+  
+  Then (I see the "added number" as the result)
+  
+  Scenario: (Typing operator more than once)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I press "plus"
+And I type in "number"
+And I press "equals")
+  
+  Then (I see the "error" as the result)
+  
+
