@@ -101,3 +101,25 @@ And I type in "number"
 And I press "equals")
   
   Then (I see the "out of range" as the result)
+  
+  Scenario: (6+* is provided as input)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I press "multiply"
+And I press "equals")
+  
+  Then (I see the "error" as the result)
+  
+  Scenario: (Addtion of number with zero)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I press "zero"
+And I press "equals")
+  
+  Then (I see the "number" as the result)
