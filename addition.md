@@ -113,7 +113,7 @@ And I press "equals")
   
   Then (I see the "error" as the result)
   
-  Scenario: (Addtion of number with zero)
+  Scenario: (Addition of number with zero)
   
   Given (The calculator turns on)
   
