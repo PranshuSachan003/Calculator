@@ -168,4 +168,4 @@ And I press "multiply"
 And I type in "decimal number"
 And I press "equals")
   
-  Then (I see the "multiplied number with fixed number of digits after decimal" as the result)
+  Then (I see the "multiplied number with fixed digits after decimal" as the result)
