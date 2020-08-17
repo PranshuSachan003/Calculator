@@ -31,7 +31,7 @@ And I press "divide"
 And I type in "number"
 And I press "equals")
   
-  Then (I see the "negative number if any number is negative else positive" as the result)
+  Then (I see "negative if any number is negative else positive" as the result)
   
   Scenario: (Division isn't symmetric)
   
