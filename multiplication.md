@@ -3,7 +3,7 @@
 Scenario: (Simple multiplication)
  
   Given (The calculator turns on)
- 
+
   When (I type in "number"
 And I press "multiply"
 And I type in "number"
