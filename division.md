@@ -66,7 +66,7 @@ And I press "equals")
   
   Then (I see the "in divided number after decimal digit is repeating" as the result)
   
-  Scenario: (Multiple times "/" is pressed)
+  Scenario: (Typing operator more than once )
   
   Given (The calculator turns on)
   
@@ -78,7 +78,7 @@ And I press "equals")
   
   Then (I see the "divided number" as the result)
   
-  Scenario: ( Interleaving of multiple operators)
+  Scenario: ( Interleaving of more than one operator)
   
   Given (The calculator turns on)
   
