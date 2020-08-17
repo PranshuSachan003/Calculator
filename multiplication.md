@@ -99,7 +99,7 @@ And I press "multiply"
 And I type in "irrational number"
 And I press "equals")
   
-  Then (I see the "multiplied numbe" as the result)
+  Then (I see the "multiplied number" as the result)
   
   Scenario: (Decimal & integer multiplication)
   
