@@ -1,17 +1,23 @@
 # Addition
 
-Scenario: (describe a scenario here)
+Scenario: (Addition of two positive numbers)
   
-  Given (state the initial condition)
+  Given (The calculator is turned on)
 
-  When (state the event)
+  When (I type in "positive number"
+And I press "plus"
+And I type in "positive number"
+And I press "equals")
   
-  Then (state the effect)
+  Then (I see the "added number" as the result)
 
-Scenario: (describe a scenario here)
+Scenario: ( Addition of two negative numbers)
   
-  Given (state the initial condition)
+  Given (The calculator is turned on)
   
-  When (state the event)
+  When (I type in "negative number"
+And I press "plus"
+And I type in "negative number"
+And I press "equals")
   
-  Then (state the effect)
+  Then (I see the "added number" as the result)
