@@ -1,4 +1,4 @@
-# Multiplication 
+# Multiplication
 
 Scenario: (Simple multiplication)
   
