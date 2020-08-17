@@ -31,7 +31,8 @@ And I press "divide"
 And I type in "number"
 And I press "equals")
   
-  Then (I see the "divided number with negative sign if any number is negative else with positive sign" as the result)
+  Then (I see the "divided number with negative sign if any number is negative 
+  else with positive sign" as the result)
   
   Scenario: (Division isn't symmetric)
   
@@ -42,7 +43,8 @@ And I press "divide"
 And I type in "number"
 And I press "equals")
   
-  Then (I see the "by reversing these two number divided number is not same" as the result)
+  Then (I see the "by reversing these two number 
+  divided number is not same" as the result)
 
 Scenario: (Division when both operands are 0)
   
