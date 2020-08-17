@@ -1,7 +1,7 @@
 # Multiplication
 
 Scenario: (Simple multiplication)
- 
+
   Given (The calculator turns on)
 
   When (I type in "number"
