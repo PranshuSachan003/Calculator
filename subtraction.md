@@ -1,5 +1,5 @@
 
-Scenario: (Subtraction of two positive numbers)
+Scenario: ( Subtraction of two positive numbers)
 
 Given (The calculator turns on)
 
