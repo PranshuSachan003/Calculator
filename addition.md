@@ -102,7 +102,7 @@ And I press "equals")
   
   Then (I see the "out of range" as the result)
   
-  Scenario: (6+* is provided as input)
+  Scenario: (6+* is provides as input)
   
   Given (The calculator turns on)
   
