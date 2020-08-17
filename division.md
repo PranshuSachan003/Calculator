@@ -113,7 +113,7 @@ And I press "equals")
   
   Then (I see the "divided number" as the result)
   
-  Scenario: (Division of multiple numbers)
+  Scenario: (Division of more than one number)
   
   Given (The calculator turns on)
   
