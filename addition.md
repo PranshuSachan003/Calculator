@@ -66,5 +66,3 @@ And I type in "number"
 And I press "equals")
   
   Then (I see the "error" as the result)
-  
-
