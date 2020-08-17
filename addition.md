@@ -66,3 +66,38 @@ And I type in "number"
 And I press "equals")
   
   Then (I see the "error" as the result)
+  
+  Scenario: (Addition of more than 2 numbers)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I type in "number"
+And I press "plus"
+And I type in "number"
+And I press "equals")
+  
+  Then (I see the "added number" as the result)
+  
+  Scenario: ( Adding numbers where the result goes out of range)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I type in "number"
+And I press "equals")
+  
+  Then (I see the "out of range" as the result)
+  
+   Scenario: ( Adding numbers where the result goes out of range)
+  
+  Given (The calculator turns on)
+  
+  When (I type in "number"
+And I press "plus"
+And I type in "number"
+And I press "equals")
+  
+  Then (I see the "out of range" as the result)
