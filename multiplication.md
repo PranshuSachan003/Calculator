@@ -134,7 +134,7 @@ And I press "equals")
   
   Then (I see the "out of range" as the result)
   
-  Scenario: (Pressing "multiply button" multiple times)
+  Scenario: (Pressing "multiply button" more than one time)
   
   Given (The calculator turns on)
   
